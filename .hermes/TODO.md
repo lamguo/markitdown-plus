@@ -1,0 +1,17 @@
+# MarkItDown Plus Technical Debt
+
+- [x] `--workers` parallel conversion (v0.2.0)
+- [x] `--extract-assets` basic Office/HTML image extraction (v0.2.0)
+- [x] multiple chunk strategies: `heading`, `fixed`, `semantic-lite` (v0.2.0)
+- [x] optional tqdm progress support (v0.2.0)
+- [x] coverage gate target: 85%+ (v0.2.0)
+- [x] property-test scaffolding with optional Hypothesis (v0.2.0)
+- [x] benchmark-test scaffolding with optional pytest-benchmark (v0.2.0)
+- [ ] deeper PDF asset extraction (v0.3.0)
+- [ ] incremental conversion / retry failed (v0.3.0)
+- [ ] table cleanup enhancements (v0.3.0)
+- [ ] MCP server (v0.3.0)
+- [ ] documentation site (v0.3.0)
+- [ ] release automation to PyPI (v0.3.0)
+- [ ] front matter output (v0.3.0)
+- [ ] type-checking CI with pyright or mypy (long-term)
