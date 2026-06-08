@@ -249,3 +249,16 @@ Thank you for supporting open-source development.
 ## License
 
 MIT License.
+
+
+---
+
+### 📎 See also
+
+| Project | |
+|---------|-|
+| [**recallgate**](https://github.com/lamguo/recallgate) | Token-efficient memory gate for AI coding agents |
+| [**markitdown-plus**](https://github.com/lamguo/markitdown-plus) | Batch document conversion toolkit |
+| [**trendpilot-ai**](https://github.com/lamguo/trendpilot-ai) | Curated AI tools, workflows, and templates |
+
+*Built from real use, for real use.*
