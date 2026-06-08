@@ -12,8 +12,8 @@ an empty list for unsupported formats instead of failing the conversion.
 from __future__ import annotations
 
 import html
-import re
 import os
+import re
 import shutil
 import zipfile
 from dataclasses import asdict, dataclass
@@ -104,7 +104,7 @@ def _copy_html_assets(source: Path, markdown_path: Path, assets_dir: Path) -> li
     records: list[AssetRecord] = []
     stem = safe_stem(source)
     seen: set[Path] = set()
-    for raw_index, src in enumerate(_local_html_image_paths(source), start=1):
+    for _, src in enumerate(_local_html_image_paths(source), start=1):
         candidate = (source.parent / src).resolve(strict=False)
         if candidate in seen or not candidate.exists() or not candidate.is_file():
             continue
