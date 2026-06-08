@@ -1,7 +1,13 @@
 import json
 from pathlib import Path
 
-from markitdown_plus.chunker import _split_long_text, _split_sentences, chunk_markdown, estimate_tokens, write_jsonl
+from markitdown_plus.chunker import (
+    _split_long_text,
+    _split_sentences,
+    chunk_markdown,
+    estimate_tokens,
+    write_jsonl,
+)
 
 
 def test_estimate_tokens_returns_positive_number():
