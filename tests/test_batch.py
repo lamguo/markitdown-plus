@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 
 import pytest
-
 from markitdown_plus import batch
 from markitdown_plus.batch import (
     BatchOptions,
